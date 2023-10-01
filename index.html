@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-
-
 <html lang="en-ca">
-
 
   <head>
     <title>Naha's Blog</title>
@@ -25,6 +22,7 @@
 
 
   <body>
+
     <header>
       <h2>Naha's Blog</h2>
       <img
@@ -41,7 +39,11 @@
       </nav>
     </header>
 
+
     <main>
+
+<!-- hero section -->
+      <!-- Add a wallpaper photo -->
       <h1>Welcome to my first Blog !</h1>
         <p>Dear reader, you are probably wondering why did I choose a musical instrument as a logo to my Blog ? This is not a music blog afterall ! <br> Well, it's time for a fun fact ! <br> </p>
         <ol>
@@ -51,7 +53,100 @@
         </ol>
 
 
+<!-- section 1 -->
+        <!-- add my photo -->
+        <section>
+            <h2>Introduction</h2>
+            <p>First of all, let me start by introducing myself ! My name is Nahawend Cherif (aka Naha). I'm a 22 year old girl (turning 23 on October 31st, Halloween yay !). I came to Canada back in September 2019, and I moved from Montreal (QC) to Ottawa (ON) back in June 2021.I am currently a 1st year student at Carleton University, pursuing my bachelor degree in IT.</p> <br>
+            <p>I created this HTML page (first of many to come, hopefully !) as part of my Web Development course, so I decided to make it about...Me ! I will be sharing with you some of my <a href="#hobbies">Hobbies</a> and <a href="#goals">Goals</a>. Sit back and enjoy !</p>
+        </section>
+
+
+<!-- section 2 -->
+        <section>
+          <h2>Hobbies</h2>
+          <p>Add a sentence</p>
+          <h3>Music</h3>
+          <h3>Sports</h3>
+          <h3>Volunteering</h3>
+        </section>
+
+
+<!-- section 3 -->
+        <section>
+          <h2>Goals</h2>
+          <p>Add a sentence</p>
+          <h3>Short term goals</h3>
+          <h3>Long term goals</h3>
+        </section>
+
+
+<!-- form section -->
+      <section>
+        <h2 id="form">Stay in Touch</h2>
+        <p>Would you like to subscribe to my newsletters for weekly updates and perhaps to be featured on my blog ? <br> Please feel free to do so using the form below ! </p>
+
+        <form>
+
+          <fieldset>
+            <legend>Stay in Touch Form</legend>
+            <label for="name">Username:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your username"
+              autocomplete="name"
+              required
+            />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" required />
+            <label for="phone">Phone (Optional):</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" autocomplete="tel" />
+            <label for="city">City:</label>
+            <input
+              type="text"
+              id="city"
+              name="city"
+              placeholder="Enter your city"
+              autocomplete="city"
+              required
+            />
+            <label for="postal code">Postal code:</label>
+            <input
+              type="text"
+              id="postal code"
+              name="postal code"
+              placeholder="Enter your postal code"
+              autocomplete="postal code"
+              required
+            />
+            <input type="submit" value="Subscribe" />
+          </fieldset>
+
+        </form>
+      </section>  
+  
+
     </main>
+
+
+    <footer>
+      <h2>Naha's Blog</h2>
+      <img
+        src="./Logo.png"
+        alt="Naha's Blog logo"/>
+      <nav>
+        <h3>Blog Menu</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About My Blog</a></li>
+          <li><a href="#">Archives</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </nav>
+      <p>&copy; 2023 - Design by <address><a href="nahawendcherifuni@gmail.com">Nahawend Cherif</a></address></p>
+    </footer>
 
   </body>
 </html>
